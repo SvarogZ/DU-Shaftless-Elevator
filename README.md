@@ -12,13 +12,13 @@ Atmo engine directed to up is not required.
 
 **Lua parameters**
 
-useDatabank: “true” - take data from the databank, “false” - take data from parameters
-updateDatabank:  "true" - push existing varibles to the databank, "false" - do nothing
+***useDatabank***: “true” - take data from the databank, “false” - take data from parameters
+***updateDatabank***:  "true" - push existing varibles to the databank, "false" - do nothing
 
-position_1_name: name of the position 1
-position_1_x: world coordinate  “x” of the position 1
-position_1_y: world coordinate  “y” of the position 1
-position_1_z: world coordinate  “z” of the position 1
+***position_1_name***: name of the position 1
+***position_1_x***: world coordinate  “x” of the position 1
+***position_1_y***: world coordinate  “y” of the position 1
+***position_1_z***: world coordinate  “z” of the position 1
 
 5 positions applied by default.
 If you need more, find and copy-paste the next code:
@@ -36,18 +36,18 @@ Please note!
 The numbering of the points does not relate to the name of variables.
 So, if you leave  ‘position_3_name’ empty, than ‘position_4_name’ will be recognized by script as point number 3. It will have an effect on the routes described below.
 
-maxAngularVelocity: maximum alowed angular velocity for control
-angularVelocityThreshold: criteria for stabilization
-angleThreshold: minimum allowed deviation
-maxVelocityAtmo: max velocity in atmosphere 'km/h'
-maxVelocitySpace: max velocity in space 'km/h'
-spaceToAtmoAltitude:  altitude in 'm' to switch the speed from space to atmo
-yawRotationInput: set yaw rotation speed is required, the ship will spin around all the time.
-verticalSafeDistanceFromStart: how high from the initial position start a horizontal movement in 'm', to avoid obstacles such as a fence or other ships on the way.
-positionThreshold: maximum allowed deviation from the destination in 'm'
-accelerationHorizontalFactor: horizontal acceleration factor
-accelerationVerticalFactor: vertical acceleration factor
-exitWhenArrived:   “true” -  to exit from control if possible,  “false” -  to stay on the destination point
+***maxAngularVelocity***: maximum alowed angular velocity for control
+***angularVelocityThreshold***: criteria for stabilization
+***angleThreshold***: minimum allowed deviation
+***maxVelocityAtmo***: max velocity in atmosphere 'km/h'
+***maxVelocitySpace***: max velocity in space 'km/h'
+***spaceToAtmoAltitude***:  altitude in 'm' to switch the speed from space to atmo
+***yawRotationInput***: set yaw rotation speed is required, the ship will spin around all the time.
+***verticalSafeDistanceFromStart***: how high from the initial position start a horizontal movement in 'm', to avoid obstacles such as a fence or other ships on the way.
+***positionThreshold***: maximum allowed deviation from the destination in 'm'
+***accelerationHorizontalFactor***: horizontal acceleration factor
+***accelerationVerticalFactor***: vertical acceleration factor
+***exitWhenArrived***:   “true” -  to exit from control if possible,  “false” -  to stay on the destination point
 
 
 **Changes in code probably required**
