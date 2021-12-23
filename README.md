@@ -10,6 +10,19 @@ The script works with a ship equipped with engines in all directions.
 Atmo engine directed to up is not required.
 
 
+**Control**
+
+Alt+1 - switch stabilization mode. Without stabilization, this is a normal ship with a standard script. With stabilization pitch and roll are blocked.
+
+Alt+2 - switch lift mode. Control is fully blocked. It's impossible to deactivate stabilization in the lift mode.
+
+Alt+9 - shows current world coordinates in the Lua chat.
+
+Space - go to the next point. It works in the lift mode.
+
+C - go to the previous point. It works in the lift mode.
+
+
 **Lua parameters**
 
 ***useDatabank***: “true” - take data from the databank, “false” - take data from parameters
