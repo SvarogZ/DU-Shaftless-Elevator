@@ -16,7 +16,7 @@ Alt+1 - switch stabilization mode. Without stabilization, this is a normal ship 
 
 Alt+2 - switch lift mode. Control is fully blocked. It's impossible to deactivate stabilization in the lift mode.
 
-Alt+9 - overwrite current world coordinates in the selected point.
+Alt+9 - overwrite the selected point with current world coordinates.
 
 Space - go to the next point. It works in the lift mode.
 
